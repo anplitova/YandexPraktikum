@@ -1,0 +1,19 @@
+.place__url-link {
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 6px;
+  border-bottom: 1px solid #fff;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+.place__url-link:hover {
+  opacity: 0.8;
+}
+
+.place__url-link:active {
+  opacity: 0.6;
+}
