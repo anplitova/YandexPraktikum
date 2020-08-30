@@ -1,0 +1,30 @@
+@import url(./__link/travel__link.css);
+@import url(./__title/travel__title.css);
+@import url(./__text/travel__text.css);
+
+.travel {
+  padding: 90px 48px 0 48px;
+  height: 740px;
+}
+
+@media screen and (max-width: 1279px) {
+  .travel {
+    height: 640px;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .travel {
+    height: 480px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .travel {
+    height: 200px;
+  }
+}
+
+
