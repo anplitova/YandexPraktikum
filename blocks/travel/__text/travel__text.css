@@ -1,0 +1,17 @@
+.travel__text {
+  z-index: 1;
+  max-width: 360px;
+  margin: 0;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .travel__text {
+    max-width: 280px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
